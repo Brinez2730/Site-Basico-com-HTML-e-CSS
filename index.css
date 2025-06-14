@@ -3,21 +3,27 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: rgb(189, 255, 248);
 }
 
 header {
-    background-image: url(/midias/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(107, 247, 247);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
+}
+
+header p {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    font-size: 22px;
+    margin: 0px 0px 7px 0px;
 }
 
 nav {
     background-color: #343d45;
     padding: 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 nav ul {
@@ -39,28 +45,38 @@ main {
 }
 
 section {
-    background-color: #FFEB3B; 
+    background-color: #ff3434; 
     flex: 3;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 10px;
 }
 
-article {
-    background-color: #FFC107;
+section article {
+    background-color: #ffffff;
     margin-bottom: 20px;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 11px;
+    border-color: #343d45;
+    border: 3px;
 }
 
 aside {
-    background-color: #9C27B0; 
+    background-color: rgb(255, 153, 28); 
     color: rgb(0, 0, 0);
     flex: 1;
-    padding: 20px;
+    padding: 15px 20px 0px 20px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
 }
 
 aside a {
     color: white;
     padding: 4px 0px 0px 0px;
+}
+
+footer {
+    padding: 10px 0px 0px 0px;
 }
 
 footer p{
@@ -72,13 +88,4 @@ footer p{
 
 h1, h2, h3 {
     margin-top: 0;
-}
-
-section {
-    border-right: 3px solid #343d45;
-}
-
-.space {
-    padding: 0px 0px 23px 0px;
-    color: black;
 }
